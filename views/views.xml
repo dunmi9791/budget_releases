@@ -5,7 +5,7 @@
         <field name="res_model">budget.release</field>
         <field name="view_mode">tree,form,pivot</field>
     </record>
-      <menuitem name="Budget Releases" id="budget_releases_menu" parent="nbet.nbet_budget_menu" sequence="9"
+      <menuitem name="Budget Releases" id="budget_releases_menu" parent="account.menu_finance_entries_management" sequence="9"
                 action="action_budget_releases"/>
     <!-- explicit list view definition -->
     <!--

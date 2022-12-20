@@ -28,7 +28,7 @@ class AccountAnalyticAccount(models.Model):
         comodel_name='budget.release',
         inverse_name='budget_line',
         string='Budget_releases',
-        required=False)
+        required=False, ondelete='cascade')
 
 
 
